@@ -12,8 +12,9 @@ const PostsList = () => {
             posts.map(post => (
                 
                 <article key={post.id}>
+                    {post.id}
                     <h3>{post.title}</h3>
-                    <p> {post.content.substring(0,50)}</p>
+                    <p> {post.content}</p>
                     <p> <AuthorPost userId={post.userId}/> </p>
                     <hr/>
                 </article>
