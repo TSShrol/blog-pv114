@@ -2,3 +2,8 @@
   text-align: center;
 }
 
+.reactionBtn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
