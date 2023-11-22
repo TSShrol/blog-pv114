@@ -39,7 +39,7 @@ const AddPostForm = () => {
             <br />
             <label htmlFor="postAuthor"> Author: </label>
             <select name="postAuthor" id="postAuthor" value={userId} onChange={handlerAuthorChange}>
-                <option key="0" value="0" selected="true"> select author </option>
+                <option key="0" value="0"> select author </option>
                 {/* <option value=""> data </option> */}
                 {
                     users.map(user => (
